@@ -1,0 +1,192 @@
+/* Inserta tu código aqui */
+header a{
+	color: black;
+}
+
+header a:hover{
+	color: #B00002;
+}
+
+header li{
+	margin-right: 10px;
+}
+
+.bgr-gris{
+	background-color: #2f2f2f;
+	padding-top: 30px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.bgr-gris a{
+	color: white;
+	font-size: 16px;
+}
+
+.bgr-gris a:hover{
+	color: #B00002;
+}
+
+.bgr-gris li{
+	margin-right: 80px;
+	margin-left: 23px;
+}
+
+i{
+	color: #B00002;
+}
+
+.bg-blanco{
+	background-color: #f2f4f5;
+	height: 100%;
+	width: 50%;
+	margin-top: 40px;
+	margin-left: 15px;
+	padding-bottom: 30px;
+}
+
+.bg-blanco h2{
+	font-size: 16px;
+	color: #2f2f2f;
+	border-bottom: 1px solid #B00002;
+	padding-bottom: 5px;
+	width: 30%;
+}
+
+#contact{
+	font-size: 13px;
+	color: #787878;
+}
+
+.input{
+	color: #B00002;
+}
+
+.bgr-blanco{
+	background-color: #f2f4f5;
+	height: 100%;
+	width: 40%;
+	margin-left: 70px;
+	margin-top: 40px;
+	padding-bottom: 30px;
+}
+
+.bgr-blanco h2{
+	font-size: 16px;
+	color: #2f2f2f;
+}
+
+
+.bg-white{
+	background-color: #f2f4f5;
+	height: 100%;
+	width: 45%;
+	margin-left: 15px;
+	padding-bottom: 20px;
+}
+
+.bg-white h3{
+	font-size: 16px;
+	color: #2f2f2f;
+	margin-top: 20px;
+	border-bottom: 1px solid #B00002;
+	padding-bottom: 3px;
+	width: 60%;
+}
+
+.bg-white a{
+	color: #747474;
+	text-decoration: none;
+}
+
+.bg-white a:hover{
+	color: #B00002;
+}
+
+.end{
+	border-top: 4px solid #B00002;
+ 	width: 97.5%;
+ 	margin-left: 15px;
+ 	margin-top: 40px;
+ 	padding-top: 50px;
+}
+
+.bg-gris{
+	background-color: #2f2f2f;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.buscar{
+	margin-top: 10px;
+	padding: 0 80px 0 10px;
+	color: #B00002;
+}
+
+.enviar{
+	padding: 0 20px 0 20px;
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+.end h2{
+ 	font-size: 14px;
+ 	color: white;
+ 	margin-left: 40px;
+}
+
+.end ul li{
+ 	list-style-type: none;
+ 	font-size: 13px;
+ 	color: #747474;
+ }
+
+.end a{
+	text-decoration: none;
+	color: #747474;
+}
+
+.end a:hover{
+	color: #B00002;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+	.container-fluid {
+	    width: 100%;
+	}
+
+	.row {
+	    width: 100%;
+	}
+	.col-md-6{
+		width: 100%;
+	}
+
+	.bgr-gris{
+		margin-right: 80px;
+		
+	}
+	
+	.bg-blanco{
+		margin-left: 15px;
+	}
+	
+	.bgr-blanco{
+		margin-left: 15px;
+	}
+
+
+	.bg-white{	
+		margin-left: 15px;
+		margin-top: 0;
+	}
+
+	.buscar{
+		padding: 0;
+	}
+}
